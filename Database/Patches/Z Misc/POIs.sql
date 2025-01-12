@@ -1,4 +1,4 @@
-/* POIs that exist in 16PY */
+/* POIs that exist in Chickentide */
 
 INSERT INTO `points_of_interest` (`name`,`weenie_Class_Id`) VALUES ('Ahurenga',10982);
 INSERT INTO `points_of_interest` (`name`,`weenie_Class_Id`) VALUES ('Al-Arqas',4571);
