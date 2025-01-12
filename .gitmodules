@@ -1,3 +1,3 @@
-[submodule "Database/ctd-World-16PY"]
-	path = Database/ACE-World-16PY
+[submodule "Database/Chickentide-World"]
+	path = Database/Chickentide-World
 	url = https://github.com/LingradAC/Chickentide-World.git
