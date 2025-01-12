@@ -72,8 +72,8 @@ REM FOR /D %%G IN ("*") DO (
         echo.
         REM echo /* %%~nxG */ >> %patchesdir%\Patch-%%~nxG.sql
         REM echo. >> %patchesdir%\Patch-%%~nxG.sql
-        echo /* Patched ACE World Database */ >> %patchesdir%\Patched-ACE-World-Database.sql
-        echo. >> %patchesdir%\Patched-ACE-World-Database.sql
+        echo /* Patched Chickentide World Database */ >> %patchesdir%\Patched-Chickentide-World-Database.sql
+        echo. >> %patchesdir%\Patched-Chickentide-World-Database.sql
 
         REM FOR /R %%H in (.) DO (
         REM    Pushd %%H
@@ -90,12 +90,12 @@ REM FOR /D %%G IN ("*") DO (
                 REM Echo now in %%H
                 REM copy /b "%patchesdir%\Patch-%%~nxG.sql" + *.sql "%patchesdir%\Patch-%%~nxG.sql" 1>NUL
                 REM echo. >> %patchesdir%\Patch-%%~nxG.sql
-                copy /b "%patchesdir%\Patched-ACE-World-Database.sql" + *.sql "%patchesdir%\Patched-ACE-World-Database.sql" 1>NUL
-                echo. >> %patchesdir%\Patched-ACE-World-Database.sql
+                copy /b "%patchesdir%\Patched-Chickentide-World-Database.sql" + *.sql "%patchesdir%\Patched-Chickentide-World-Database.sql" 1>NUL
+                echo. >> %patchesdir%\Patched-Chickentide-World-Database.sql
                 Popd
             )
             REM echo. >> %patchesdir%\Patch-%%~nxG.sql
-            echo. >> %patchesdir%\Patched-ACE-World-Database.sql
+            echo. >> %patchesdir%\Patched-Chickentide-World-Database.sql
         )
 
         IF EXIST "6 LandBlockExtendedData\" (
@@ -105,12 +105,12 @@ REM FOR /D %%G IN ("*") DO (
                 REM Echo now in %%H
                 REM copy /b "%patchesdir%\Patch-%%~nxG.sql" + *.sql "%patchesdir%\Patch-%%~nxG.sql" 1>NUL
                 REM echo. >> %patchesdir%\Patch-%%~nxG.sql
-                copy /b "%patchesdir%\Patched-ACE-World-Database.sql" + *.sql "%patchesdir%\Patched-ACE-World-Database.sql" 1>NUL
-                echo. >> %patchesdir%\Patched-ACE-World-Database.sql
+                copy /b "%patchesdir%\Patched-Chickentide-World-Database.sql" + *.sql "%patchesdir%\Patched-Chickentide-World-Database.sql" 1>NUL
+                echo. >> %patchesdir%\Patched-Chickentide-World-Database.sql
                 Popd
             )
             REM echo. >> %patchesdir%\Patch-%%~nxG.sql
-            echo. >> %patchesdir%\Patched-ACE-World-Database.sql
+            echo. >> %patchesdir%\Patched-Chickentide-World-Database.sql
         )
 
         IF EXIST "1 RegionDescExtendedData\" (
@@ -120,12 +120,12 @@ REM FOR /D %%G IN ("*") DO (
                 REM Echo now in %%H
                 REM copy /b "%patchesdir%\Patch-%%~nxG.sql" + *.sql "%patchesdir%\Patch-%%~nxG.sql" 1>NUL
                 REM echo. >> %patchesdir%\Patch-%%~nxG.sql
-                copy /b "%patchesdir%\Patched-ACE-World-Database.sql" + *.sql "%patchesdir%\Patched-ACE-World-Database.sql" 1>NUL
-                echo. >> %patchesdir%\Patched-ACE-World-Database.sql
+                copy /b "%patchesdir%\Patched-Chickentide-World-Database.sql" + *.sql "%patchesdir%\Patched-Chickentide-World-Database.sql" 1>NUL
+                echo. >> %patchesdir%\Patched-Chickentide-World-Database.sql
                 Popd
             )
             REM echo. >> %patchesdir%\Patch-%%~nxG.sql
-            echo. >> %patchesdir%\Patched-ACE-World-Database.sql
+            echo. >> %patchesdir%\Patched-Chickentide-World-Database.sql
         )
 
         IF EXIST "2 SpellTableExtendedData\" (
@@ -135,12 +135,12 @@ REM FOR /D %%G IN ("*") DO (
                 REM Echo now in %%H
                 REM copy /b "%patchesdir%\Patch-%%~nxG.sql" + *.sql "%patchesdir%\Patch-%%~nxG.sql" 1>NUL
                 REM echo. >> %patchesdir%\Patch-%%~nxG.sql
-                copy /b "%patchesdir%\Patched-ACE-World-Database.sql" + *.sql "%patchesdir%\Patched-ACE-World-Database.sql" 1>NUL
-                echo. >> %patchesdir%\Patched-ACE-World-Database.sql
+                copy /b "%patchesdir%\Patched-Chickentide-World-Database.sql" + *.sql "%patchesdir%\Patched-Chickentide-World-Database.sql" 1>NUL
+                echo. >> %patchesdir%\Patched-Chickentide-World-Database.sql
                 Popd
             )
             REM echo. >> %patchesdir%\Patch-%%~nxG.sql
-            echo. >> %patchesdir%\Patched-ACE-World-Database.sql
+            echo. >> %patchesdir%\Patched-Chickentide-World-Database.sql
         )
 
         IF EXIST "3 TreasureTable\" (
@@ -150,12 +150,12 @@ REM FOR /D %%G IN ("*") DO (
                 REM Echo now in %%H
                 REM copy /b "%patchesdir%\Patch-%%~nxG.sql" + *.sql "%patchesdir%\Patch-%%~nxG.sql" 1>NUL
                 REM echo. >> %patchesdir%\Patch-%%~nxG.sql
-                copy /b "%patchesdir%\Patched-ACE-World-Database.sql" + *.sql "%patchesdir%\Patched-ACE-World-Database.sql" 1>NUL
-                echo. >> %patchesdir%\Patched-ACE-World-Database.sql
+                copy /b "%patchesdir%\Patched-Chickentide-World-Database.sql" + *.sql "%patchesdir%\Patched-Chickentide-World-Database.sql" 1>NUL
+                echo. >> %patchesdir%\Patched-Chickentide-World-Database.sql
                 Popd
             )
             REM echo. >> %patchesdir%\Patch-%%~nxG.sql
-            echo. >> %patchesdir%\Patched-ACE-World-Database.sql
+            echo. >> %patchesdir%\Patched-Chickentide-World-Database.sql
         )
 
         IF EXIST "4 CraftTable\" (
@@ -165,12 +165,12 @@ REM FOR /D %%G IN ("*") DO (
                 REM Echo now in %%H
                 REM copy /b "%patchesdir%\Patch-%%~nxG.sql" + *.sql "%patchesdir%\Patch-%%~nxG.sql" 1>NUL
                 REM echo. >> %patchesdir%\Patch-%%~nxG.sql
-                copy /b "%patchesdir%\Patched-ACE-World-Database.sql" + *.sql "%patchesdir%\Patched-ACE-World-Database.sql" 1>NUL
-                echo. >> %patchesdir%\Patched-ACE-World-Database.sql
+                copy /b "%patchesdir%\Patched-Chickentide-World-Database.sql" + *.sql "%patchesdir%\Patched-Chickentide-World-Database.sql" 1>NUL
+                echo. >> %patchesdir%\Patched-Chickentide-World-Database.sql
                 Popd
             )
             REM echo. >> %patchesdir%\Patch-%%~nxG.sql
-            echo. >> %patchesdir%\Patched-ACE-World-Database.sql
+            echo. >> %patchesdir%\Patched-Chickentide-World-Database.sql
         )
 
         IF EXIST "5 HousingPortals\" (
@@ -180,12 +180,12 @@ REM FOR /D %%G IN ("*") DO (
                 REM Echo now in %%H
                 REM copy /b "%patchesdir%\Patch-%%~nxG.sql" + *.sql "%patchesdir%\Patch-%%~nxG.sql" 1>NUL
                 REM echo. >> %patchesdir%\Patch-%%~nxG.sql
-                copy /b "%patchesdir%\Patched-ACE-World-Database.sql" + *.sql "%patchesdir%\Patched-ACE-World-Database.sql" 1>NUL
-                echo. >> %patchesdir%\Patched-ACE-World-Database.sql
+                copy /b "%patchesdir%\Patched-Chickentide-World-Database.sql" + *.sql "%patchesdir%\Patched-Chickentide-World-Database.sql" 1>NUL
+                echo. >> %patchesdir%\Patched-Chickentide-World-Database.sql
                 Popd
             )
             REM echo. >> %patchesdir%\Patch-%%~nxG.sql
-            echo. >> %patchesdir%\Patched-ACE-World-Database.sql
+            echo. >> %patchesdir%\Patched-Chickentide-World-Database.sql
         )
 
         IF EXIST "8 QuestDefDB\" (
@@ -195,12 +195,12 @@ REM FOR /D %%G IN ("*") DO (
                 REM Echo now in %%H
                 REM copy /b "%patchesdir%\Patch-%%~nxG.sql" + *.sql "%patchesdir%\Patch-%%~nxG.sql" 1>NUL
                 REM echo. >> %patchesdir%\Patch-%%~nxG.sql
-                copy /b "%patchesdir%\Patched-ACE-World-Database.sql" + *.sql "%patchesdir%\Patched-ACE-World-Database.sql" 1>NUL
-                echo. >> %patchesdir%\Patched-ACE-World-Database.sql
+                copy /b "%patchesdir%\Patched-Chickentide-World-Database.sql" + *.sql "%patchesdir%\Patched-Chickentide-World-Database.sql" 1>NUL
+                echo. >> %patchesdir%\Patched-Chickentide-World-Database.sql
                 Popd
             )
             REM echo. >> %patchesdir%\Patch-%%~nxG.sql
-            echo. >> %patchesdir%\Patched-ACE-World-Database.sql
+            echo. >> %patchesdir%\Patched-Chickentide-World-Database.sql
         )
 
         IF EXIST "B GameEventDefDB\" (
@@ -210,12 +210,12 @@ REM FOR /D %%G IN ("*") DO (
                 REM Echo now in %%H
                 REM copy /b "%patchesdir%\Patch-%%~nxG.sql" + *.sql "%patchesdir%\Patch-%%~nxG.sql" 1>NUL
                 REM echo. >> %patchesdir%\Patch-%%~nxG.sql
-                copy /b "%patchesdir%\Patched-ACE-World-Database.sql" + *.sql "%patchesdir%\Patched-ACE-World-Database.sql" 1>NUL
-                echo. >> %patchesdir%\Patched-ACE-World-Database.sql
+                copy /b "%patchesdir%\Patched-Chickentide-World-Database.sql" + *.sql "%patchesdir%\Patched-Chickentide-World-Database.sql" 1>NUL
+                echo. >> %patchesdir%\Patched-Chickentide-World-Database.sql
                 Popd
             )
             REM echo. >> %patchesdir%\Patch-%%~nxG.sql
-            echo. >> %patchesdir%\Patched-ACE-World-Database.sql
+            echo. >> %patchesdir%\Patched-Chickentide-World-Database.sql
         )
 
         REM IF EXIST "*.sql" (
@@ -225,8 +225,8 @@ REM FOR /D %%G IN ("*") DO (
         REM         REM Echo now in %%H
         REM         REM copy /b "%patchesdir%\Patch-%%~nxG.sql" + *.sql "%patchesdir%\Patch-%%~nxG.sql" 1>NUL
         REM         REM echo. >> %patchesdir%\Patch-%%~nxG.sql
-        REM         copy /b "%patchesdir%\Patched-ACE-World-Database.sql" + *.sql "%patchesdir%\Patched-ACE-World-Database.sql" 1>NUL
-        REM         echo. >> %patchesdir%\Patched-ACE-World-Database.sql
+        REM         copy /b "%patchesdir%\Patched-Chickentide-World-Database.sql" + *.sql "%patchesdir%\Patched-Chickentide-World-Database.sql" 1>NUL
+        REM         echo. >> %patchesdir%\Patched-Chickentide-World-Database.sql
         REM         Popd
         REM     )
         REM )
@@ -241,14 +241,14 @@ REM FOR /D %%G IN ("*") DO (
                 REM Echo now in %%H
                 REM copy /b "%patchesdir%\Patch-%%~nxG.sql" + *.sql "%patchesdir%\Patch-%%~nxG.sql" 1>NUL
                 REM echo. >> %patchesdir%\Patch-%%~nxG.sql
-                copy /b "%patchesdir%\Patched-ACE-World-Database.sql" + *.sql "%patchesdir%\Patched-ACE-World-Database.sql" 1>NUL
-                echo. >> %patchesdir%\Patched-ACE-World-Database.sql
+                copy /b "%patchesdir%\Patched-Chickentide-World-Database.sql" + *.sql "%patchesdir%\Patched-Chickentide-World-Database.sql" 1>NUL
+                echo. >> %patchesdir%\Patched-Chickentide-World-Database.sql
                 Popd
             )
         )
-        echo. >> %patchesdir%\Patched-ACE-World-Database.sql
+        echo. >> %patchesdir%\Patched-Chickentide-World-Database.sql
 
-        echo. >> %patchesdir%\Patched-ACE-World-Database.sql
+        echo. >> %patchesdir%\Patched-Chickentide-World-Database.sql
 
 	echo.
     REM )
