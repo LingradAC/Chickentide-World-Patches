@@ -25,6 +25,6 @@ REM echo %sqlfile%
 
 appveyor DownloadFile %downloadfile% -FileName Database\compiled\%zipfile%
 REM 7z x %zipfile% -oDatabase\compiled
-REM "C:\Program Files\MySql\MySQL Server 5.7\bin\mysql.exe" -h localhost -u root -pPassword12! ace_world < %sqlfile%
+REM "C:\Program Files\MySql\MySQL Server 5.7\bin\mysql.exe" -h localhost -u root -pPassword12! ctd_world < %sqlfile%
 
 @echo on
