@@ -1,5 +1,5 @@
 @echo off
-REM Download latest ACE-World database, extract and import it 
+REM Download latest Chickentide-World database, extract and import it 
 
 REM echo %downloadfile%
 REM echo %zipfile%
@@ -10,7 +10,7 @@ set /p dbversion=<AppVeyor\dbversion.txt
 IF EXIST AppVeyor\db-pr-override.txt (
     set /p downloadfile=<AppVeyor\db-pr-override.txt
 ) ELSE (
-    set downloadfile=https://github.com/ACEmulator/ACE-World-16PY/releases/download/v%dbversion%/ACE-World-16PY-db-v%dbversion%.sql.zip
+    set downloadfile=https://github.com/LingradAC/Chickentide-World/releases/download/v%dbversion%/Chickentide-World-db-v%dbversion%.sql.zip
 )
 
 FOR /f "delims=" %%i in ("%downloadfile%") DO ( 
