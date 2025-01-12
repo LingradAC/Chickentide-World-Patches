@@ -9,4 +9,4 @@ echo. >> Database\compiled\Chickentide-World-Database-v%APPVEYOR_BUILD_VERSION%.
 REM copy /b Database\compiled\Chickentide-World-Database-v%APPVEYOR_BUILD_VERSION%.sql + Database\Chickentide-World\Database\1-Base\WorldTriggers.sql Database\compiled\Chickentide-World-Database-v%APPVEYOR_BUILD_VERSION%.sql
 echo. >> Database\compiled\Chickentide-World-Database-v%APPVEYOR_BUILD_VERSION%.sql
 @echo on
-7z a Chickentide-World-Database-v%APPVEYOR_BUILD_VERSION%.sql.zip c:\projects\ctd-world-patches\Database\compiled\Chickentide-World-Database-v%APPVEYOR_BUILD_VERSION%.sql
+7z a Chickentide-World-Database-v%APPVEYOR_BUILD_VERSION%.sql.zip c:\projects\chickentide-world-patches\Database\compiled\Chickentide-World-Database-v%APPVEYOR_BUILD_VERSION%.sql
