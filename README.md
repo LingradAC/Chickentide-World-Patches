@@ -1,4 +1,4 @@
-# ACE-World-16PY Patches - Complete World Database (ACE-World-16PY + ACE-World-16PY-Patches) for ACEmulator
+# Chickentide World Patches - Complete World Database (Chickentide World + Chickentide World Patches) for ACEmulator
 Content beyond Coldeve, 16 P.Y. - Infiltration - February 2005
 ***
 [![Discord](https://img.shields.io/discord/261242462972936192.svg?label=play+now!&style=for-the-badge&logo=discord)](https://discord.gg/C2WzhP9)
